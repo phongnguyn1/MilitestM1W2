@@ -1,4 +1,10 @@
-var array = [1,2,3,4,5,6,7,8,9,9,9,9,1,2,3,3,4];
-var a = array.indexOf(9);
-console.log(a); 
+function demlanxuathiencua1(arr, target) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) {
+            count++;
+        }
+    }
+    return count;
+}
 

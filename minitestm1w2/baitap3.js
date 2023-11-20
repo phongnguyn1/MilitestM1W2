@@ -1,3 +1,4 @@
+let array = [ 13,3,1,4,5,6,8]
 function findSnt (array) {
     let daysonguyento=[] ;
     array.forEach((num)=> {
@@ -13,4 +14,11 @@ function findSnt (array) {
     })
     console.log(daysonguyento);
 }
-findSnt[(1,4,5,6,7,8,9,13)]
+function Tongcacsnttrongday(numbers) {
+    let tongcacsonguyento = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (daysonguyento (num[i])) {
+            tongcacsonguyento += num[i];
+        }
+        return tongcacsonguyento;
+    }
