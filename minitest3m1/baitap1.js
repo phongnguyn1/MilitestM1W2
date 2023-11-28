@@ -8,14 +8,6 @@
             return 1
         }
         else {
-            let giaiThua = 1;
-            let i = 1;
-            for (let i = 1; j <=x ; i++) {
+            return x*tinhgiaithua(x-1)
             }
-            }
-        return giaiThua;
-
-
-
-
-}
+                    }

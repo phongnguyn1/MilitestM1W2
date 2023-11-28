@@ -1,9 +1,9 @@
 function Timsoduong(array) {
-    let Soduong = [0,1,2,3,4,5,6];
+    let Soduong = [];
 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > 0) {
-            Soduong.push(arr[i]);
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > 0) {
+            Soduong.push(array[i]);
         }
     }
 
